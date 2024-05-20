@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 			this.tbTarget = new System.Windows.Forms.TextBox();
 			this.tbNew = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
@@ -43,7 +44,7 @@
 			this.tbTarget.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
 			this.tbTarget.Location = new System.Drawing.Point(12, 30);
 			this.tbTarget.Name = "tbTarget";
-			this.tbTarget.Size = new System.Drawing.Size(155, 23);
+			this.tbTarget.Size = new System.Drawing.Size(144, 23);
 			this.tbTarget.TabIndex = 0;
 			// 
 			// tbNew
@@ -53,7 +54,7 @@
 			this.tbNew.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
 			this.tbNew.Location = new System.Drawing.Point(12, 76);
 			this.tbNew.Name = "tbNew";
-			this.tbNew.Size = new System.Drawing.Size(155, 23);
+			this.tbNew.Size = new System.Drawing.Size(144, 23);
 			this.tbNew.TabIndex = 1;
 			// 
 			// label1
@@ -77,7 +78,7 @@
 			// btnExec
 			// 
 			this.btnExec.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnExec.Location = new System.Drawing.Point(195, 12);
+			this.btnExec.Location = new System.Drawing.Point(184, 12);
 			this.btnExec.Name = "btnExec";
 			this.btnExec.Size = new System.Drawing.Size(108, 87);
 			this.btnExec.TabIndex = 4;
@@ -94,20 +95,21 @@
 			this.slnRenameList1.ItemHeight = 12;
 			this.slnRenameList1.Location = new System.Drawing.Point(15, 105);
 			this.slnRenameList1.Name = "slnRenameList1";
-			this.slnRenameList1.Size = new System.Drawing.Size(290, 208);
+			this.slnRenameList1.Size = new System.Drawing.Size(279, 184);
 			this.slnRenameList1.TabIndex = 5;
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(317, 326);
+			this.ClientSize = new System.Drawing.Size(306, 313);
 			this.Controls.Add(this.slnRenameList1);
 			this.Controls.Add(this.btnExec);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.tbNew);
 			this.Controls.Add(this.tbTarget);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Form1";
 			this.Text = "VcxProjRename";
 			this.ResumeLayout(false);
